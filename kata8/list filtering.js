@@ -3,3 +3,4 @@ function filter_list(l) {
 }
 console.log(filter_list([1, 'a', 'b', 0, 15]))
 
+
