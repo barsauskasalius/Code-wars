@@ -1,0 +1,11 @@
+function gooseFilter(birds) {
+    const ats = []
+    let geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"];
+    for (var i = 0; i < birds.length; i++) {
+
+        if (birds[i] === geese[i]) {
+            ats.pop(birds[i])
+        }
+    }
+    return birds
+}
