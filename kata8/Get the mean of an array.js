@@ -4,6 +4,9 @@ function getAverage(marks) {
         total += marks[i];
     }
     let avg = total / marks.length;
-    return Math.round(avg)
+    return Math.floor(avg)
 
 }
+function getAverage(marks){
+    return Math.floor(marks.reduce((sum, x) => sum + x) / marks.length);
+  }
